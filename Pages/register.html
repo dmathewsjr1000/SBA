@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Css/styles.css">
-    <title>Register</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Css/table2.css" />
+
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="../index.html">Home</a></li>
+      <li><a href="../pages/register.html">Register</a></li>
+      <li><a href="./tables.html">Tables</a></li>
+      <!-- <li style="float: right"><a href="../pages/tables.html">Tables</a></li> -->
+
+      <li style="float: right">
+        <a href="../pages/login.html">
+          <img
+            src="../images/icons8-login-50.png"
+            alt="Login Icon"
+            class="login-user"
+          />Log In</a
+        >
+      </li>
+    </ul>
+
+    <br />
+    <br />
+    <br />
+
+    <h1>Sign Up Please</h1>
+
+    <br />
+    <br />
+
+    <main>
+      <div id="box">
+        <form action="#">
+          <label for="FirstName">First Name:</label>
+          <input type="text" name="FirstName" id="FirstName" required /><br />
+          <label for="LastName">Last Name:</label>
+          <input type="text" name="LastName" id="LastName" required /><br />
+          <label for="Email">Email Address:</label>
+          <input type="text" name="userName" id="UserName" required /><br />
+          <label for="Email">Confirmed Email Address:</label>
+          <input type="text" name="userName" id="UserName" required /><br />
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" /><br />
+          <label for="ConfirmedPassword">Confirmed Password:</label>
+          <input type="password" name="password" id="password" /><br />
+          <br />
+
+          <fieldset>
+            <legend>Gender</legend>
+            <label for="radio1">Male</label>
+            <input type="radio" name="radio" id="radio1" />
+            <label for="radio2">Female</label>
+            <input type="radio" name="radio" id="radio2" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Hobbies</legend>
+            <label for="checkbox">Gamer</label
+            ><input type="checkbox" name="checkbox" id="checkbox" />
+            <label for="checkbox2">Worker</label
+            ><input type="checkbox" name="checkbox2" id="checkbox2" />
+            <label for="checkbox3">Social</label
+            ><input type="checkbox" name="checkbox3" id="checkbox3" />
+            <label for="checkbox3">Thinker</label>
+            <input type="checkbox" name="checkbox4" id="checkbox4" />
+          </fieldset>
+          <br />
+          <label for="Submit"></label>
+          <button type="“Button”" name="Button" id="Button">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
 </html>
