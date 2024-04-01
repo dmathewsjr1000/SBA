@@ -1,10 +1,19 @@
 body {
-    background-color: darkslategrey;
-    color: black;
-    font-size: 1.1em;
-  }
+  background-image: url('../Images/PlaneWalkers1.jpg');
+}
+/* body { */
+    /* background-color: darkslategrey; */
+    /* color: black; */
+    /* font-size: 1.1em; */
+  /* } */
   h1 {
     color: coral;
+  }
+  label{
+    color: coral;
+  }
+  legend {
+    color: red;
   }
   #intro {
     font-size: 1.3em;
@@ -36,4 +45,15 @@ body {
   h2 ~ p {
     color: gold;
   }
+
+  #box5 {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    transition-duration: 3s;
+    justify-content: center;
+ }
+ #box5:hover {
+    transform:rotate(360deg);
+ }
   
